@@ -1,0 +1,30 @@
+.control-panel{
+    .pri-heading{
+        margin-bottom: 5rem;
+        color: $color-white;
+    }
+    &-info{ 
+        &-img{
+            height: 2.625rem;
+            width: 2.625rem;
+            margin: 0 auto;
+        }
+        &-content{
+            h4{
+                font-size: 1.125rem;
+                color: $color-white;
+                font-weight: 600;
+                margin-bottom: 1.313rem;
+                text-transform: capitalize;
+            }
+            .para{
+                color: $color-control-para;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+    img{
+        height: 100%; 
+        width: 100%;
+    }
+}

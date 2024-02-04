@@ -1,0 +1,79 @@
+.hosting{
+   padding: 2.563rem 0px 7.313rem; 
+   & .form-control {
+    padding: 1.688rem 2.625rem;
+    font-size: 0.938rem;
+    color: $color-pri-heading;
+    border: 1px solid $color-white;
+    @include shadow($color-dark-opc);
+    border-radius: 2.25rem;
+    margin-bottom: 1rem;
+    position: relative;
+        @media all and (min-width: 992px){
+            margin-bottom: 2.188rem;
+        } 
+        &::placeholder{
+            color: $color-pri-heading;
+        }
+        &:focus {
+            border-color: $color-pri-heading;
+            outline: 0;
+            @include shadow($color-pri-heading-opc);
+        }
+    }
+    .web-hosting{
+        & .get-started-btn{
+            padding: 12px 40px 13px 14px;
+            border: 1px solid $color-white;
+            @media all and (max-width: 576px){
+                margin-bottom: 2.188rem;
+            }
+            @media all and (min-width: 576px){
+                margin-bottom: 2.188rem;
+            }
+            @media all and (min-width: 992px){
+                margin-bottom: 0px;
+                position: absolute;
+                bottom: 3px;
+                right: 19px;
+            }
+            &:hover,&:focus{
+                background-color: $color-logo-red;
+                color: $color-white;
+            }
+            span{
+                margin-left: 0.813rem;
+            }
+        }
+        &-info ul{
+            @include atCenter;
+            flex-wrap: wrap;
+            margin-bottom: 7.813rem;
+            li{
+                margin: 0px 1.2rem 1rem 0px;
+                @media all and (min-width: 992px){
+                    margin: 0px 0px 1rem 1.2rem;
+                }
+                a{
+                    color: $color-pri-heading;
+                    font-size: 0.938rem;
+                    font-weight: bold;
+                    padding: 0.625rem 0.938rem;
+                    transition: all .3s ease-in-out;
+                    &:hover,&:focus{
+                        background-color: $color-bg-blue;
+                        color: $color-white;
+                        border-radius: 3.125rem;
+                        transform: scale(1.15);
+                        @include shadow($color-bg-blue);
+                    }
+                    &:active{
+                        transform: translateY(1px);
+                    }
+                }
+                
+            }
+        }
+    }
+}
+

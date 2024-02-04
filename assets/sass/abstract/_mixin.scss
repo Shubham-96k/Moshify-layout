@@ -1,0 +1,9 @@
+@mixin atCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin shadow($color){
+    box-shadow: 2px 2px 0.938rem 1px $color;
+} 

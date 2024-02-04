@@ -1,0 +1,46 @@
+
+
+.cloud-host{
+
+    .web-hosting-info{
+        margin-bottom: 3.125rem; 
+    }   
+    &-content{ 
+        @media all and (max-width: 576px){
+            margin-bottom: 4rem;
+        }
+        @media all and (min-width: 576px){
+            margin-bottom: 4rem;
+        }
+        @media all and (min-width: 768px){
+            margin-bottom: 0px;
+        }
+        &-img{
+            height: 3.938rem;
+            width: 3.938rem;
+            padding: 0.938rem;
+            border-radius: 50%;
+            background-color: $icon-bg-color;
+            margin-bottom: 1.063rem;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+            // .pri-heading{
+
+            // }
+        }
+        
+        .pri-heading{
+            font-size: 1.5rem;
+            margin-bottom: 1.125rem;
+        }
+        
+    }
+    .standard-img{
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

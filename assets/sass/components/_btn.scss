@@ -1,0 +1,20 @@
+.get-started-btn{
+    padding: 1.438rem 2.3rem;
+    background-color: $color-logo-red;
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: 0.938rem;
+    font-weight: bold;
+    border: 2px solid $color-logo-red;
+    border-radius: 2.4rem;
+    transition: all .3s ease-in-out;
+    &:hover,&:focus{
+        background-color: $color-white; 
+        color: $color-logo-red;
+        border: 2px solid $color-white; 
+    }
+    &:active{
+        transform: scale(.9);
+    }
+}
+

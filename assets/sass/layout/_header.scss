@@ -1,0 +1,25 @@
+.header{
+    padding: 2.5rem 0 8.75rem;
+    background-color: $color-dark;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    .header-info{
+        margin: 13.125rem 0px 10.313rem;
+        @media all and (max-width: 768px){
+            &{
+                margin: 13.125rem 0px 0px;
+            }
+        } 
+        h2{
+            color: $color-white;
+            font-size: 5rem;
+            text-transform: capitalize;
+            font-weight: 600;
+            margin-bottom: 1.688rem;
+        }
+        p{
+            color: $color-main-heading-para;
+            font-size: 1.25rem;
+            margin-bottom: 2.563rem;
+        }
+    }
+}

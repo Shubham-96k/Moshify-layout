@@ -1,0 +1,36 @@
+.getstartCard{
+    padding: 4.25rem 2.375rem 2.75rem 3.75rem;
+    background-color: $color-prem-off-blue;
+    border-radius: 15px; 
+    transform: translateY(-12rem);
+    &-info{
+        margin-bottom: 2rem;
+        @media all and (min-width: 992px){
+            width: 70%;
+        }
+        h2{  
+            color: $color-white;
+        }
+        p{
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: $color-white;
+            margin: 0;
+        }
+    }
+    .get-started{
+        @media all and (min-width: 992px){
+            width: 30%;
+            @include atCenter;
+            margin-left: 3.75rem;
+        }
+        &-btn{
+            @media all and (min-width: 992px){
+                width: 100%;
+            }
+            color: $color-white;
+            background-color: $color-bg-blue;
+            border: 2px solid $color-bg-blue;
+        }
+    }
+}

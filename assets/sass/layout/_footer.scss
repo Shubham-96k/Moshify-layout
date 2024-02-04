@@ -1,0 +1,39 @@
+.footer{
+    ul{
+        margin-bottom: 3rem;
+        li{
+            margin-bottom: 1.5rem;
+            text-transform: capitalize;
+            &:last-child{
+                margin-bottom: 0px;
+            } 
+            h4{
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 1rem;
+                color: $color-white; 
+                letter-spacing: 2px;
+            }
+            a,a:link,a:visited{
+                color: #656565;
+                font-size: 15px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .copyright{
+        .logo1{
+            position: relative;
+            z-index: 1;
+            opacity: 0.8;
+        }
+        .logo2{
+            transform: translateX(-23px);
+        }
+        .logo3{
+            transform: translateX(-20px);
+        }
+    }
+}

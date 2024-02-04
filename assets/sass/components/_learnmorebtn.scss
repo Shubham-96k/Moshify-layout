@@ -1,0 +1,18 @@
+.learn-more{
+    &,
+    &-link,
+    &-visited{
+        text-transform: uppercase;
+        color: $color-logo-red;
+        font-size: 0.938rem;
+        font-weight: bold; 
+        border-bottom: 2px solid transparent;
+        &:hover,&:focus,&:active{
+            color: $color-logo-red;
+            border-bottom: 2px solid $color-logo-red;
+            i{
+                transform: translateX(2px);
+            }
+        }
+    }
+}
